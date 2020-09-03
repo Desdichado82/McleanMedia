@@ -3,57 +3,312 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link href="https://fonts.googleapis.com/css?family=Anton|Duru+Sans|Lato|Mandali|Montserrat|Russo+One&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href=".\css\portfolio_theme.css">
+        <title>David Mclean :Développeur web</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" integrity="sha512-WEQNv9d3+sqyHjrqUZobDhFARZDko2wpWdfcpv44lsypsSuMO0kHGd3MQ8rrsBn/Qa39VojphdU6CMkpJUmDVw==" crossorigin="anonymous" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w==" crossorigin="anonymous"></script>
+        <script src="js/scripts.js"></script>
+     
     </head>
     <body>
-        
-        <header>
-            <section>
-                <img  id="mclean_logo"  class="center"src="./img/mclean_media_logo.png"> 
-                <h1>DAVID MCLEAN </h1>
-                <h2><  web_developpeur /></h2>
-            </section>
-        </header>
-        <nav>
-            <ul>
-                <li><a>Qui Suis Je</a></li>
-                <li><a>Portefeuille</a></li>
-                <li><a>Blog</a></li>
-                <li><a>Contact</a></li>
-            </ul>
+        <!--Navbar-->
+        <nav class="navbar">
+            <div class="inner-width">
+                <a href="#" class="logo"></a>
+                <button class="menu-toggler">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="navbar-menu">
+                    <a href="#home">Accueil</a>
+                    <a href="#about">A propos de</a>
+                    <a href="#services">Services</a>
+                    <a href="#education">Expérience</a>
+                    <a href="#works">Projets</a>
+                    <a href="#contact">contactez</a>
+                </div>
+            </div>
         </nav>
-        <main>
-            <section id="info">
-                    <div class="slideshow-container">
-                        <div class="slideShow fade">
-                            <h3>- L'expérience est l'enseignante de toutes choses - </h3>
-                            <img src="./img/webservices.png" class="center">
-                        </div>
+        <!--Home page -->
+        <section id="home">
+            <div class="inner-width">
+                <div class="content">
+                    <h1>Je suis </h1>
+                    <div class="sm">
+                        <a href="" class="fab fa-facebook-f"></a>   
+                        <a href="" class="fab fa-twitter"></a>  
+                        <a href="" class="fab fa-instagram"></a>   
+                        <a href="" class="fab fa-linkedin-in"></a>  
+                        <a href="" class="fab fa-youtube"></a>    
                     </div>
-            </section>
-            <section id="services">
-                <div class="card"><h4>Conception</h4></div>
-                <div class="card"><h4>Code</h4></div>
-                <div class="card"><h4>Cloud</h4></div>
-            </section>
-            <section id="community"></section>
-        </main>
-        <footer>
-            <section id="message"></section>
-            <section id="affillates"></section>
-            <section id="copyright mclean-media 2020">
-                <section>
-                    <ul class="social_bar">
-                        <li><a><i class="fa fa-facebook" aria-hidden="true"></i></i></a></li>
-                        <li><a><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                        <li><a><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
-                    </ul>
-                </section>
-            </section>
-        </footer>
-        <script src="js/slideshow.js"></script>
+                    <div class="btn">
+                        <a href="#contact">Contactez-moi</a>
+                        <a href="cv/cv.png" download ="cv">Télécharger cv</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div class="inner-width">
+              <h1 class="section-title">A propos de</h1>
+              <div class="about-content">
+                <img src="img/profile.jpg" alt="" class="about-pic">
+                <div class="about-text">
+                  <h2>Salut, je suis David McLean</h2>
+                  <h3>
+                    <span>Développeur</span>
+                    <span>Concepteur</span>
+                    <span>Webmaster</span>
+                  </h3>
+                  <p>
+                    Web enthousiaste avec une passion égale pour la conception et dévelloppement d'applications web.
+                    Au cours de ma carrière, j'ai partagé mes compétences aussi bien en tant que concepteur d'interface, qu'en tant que programmeur informatique.
+                  </p>
+                </div>
+              </div>
+        
+              <div class="skills">
+                <div class="skill">
+                  <div class="skill-info">
+                    <span>HTML</span>
+                    <span>90%</span>
+                  </div>
+                  <div class="skill-bar html"></div>
+                </div>
+        
+                <div class="skill">
+                  <div class="skill-info">
+                    <span>CSS</span>
+                    <span>80%</span>
+                  </div>
+                  <div class="skill-bar css"></div>
+                </div>
+        
+                <div class="skill">
+                  <div class="skill-info">
+                    <span>Javascript</span>
+                    <span>70%</span>
+                  </div>
+                  <div class="skill-bar js"></div>
+                </div>
+        
+                <div class="skill">
+                  <div class="skill-info">
+                    <span>PHP</span>
+                    <span>60%</span>
+                  </div>
+                  <div class="skill-bar php"></div>
+                </div>
+        
+                <div class="skill">
+                  <div class="skill-info">
+                    <span>SQL</span>
+                    <span>50%</span>
+                  </div>
+                  <div class="skill-bar sql"></div>
+                </div>
+        
+                <div class="skill">
+                  <div class="skill-info">
+                    <span>C#</span>
+                    <span>40%</span>
+                  </div>
+                  <div class="skill-bar cs"></div>
+                </div>
+              </div>
+            </div>
+          </section>
+    <!--Services-->
+    <section id="services" class="dark">
+        <div class="inner-width">
+            <h1 class="section-title">Services</h1>
+            <div class="services">
+                <div class="service">
+                    <i class="icon fas fa-paint-brush"></i>
+                    <h4>Concepteur</h4>
+                    <p>Des applications de design qui suivent les tendances du design moderne et les lignes directrices actuelles de l'UI/UX </p>
+                </div>
+                <div class="service">
+                    <i class="icon fas fa-globe"></i>
+                    <h4>Créer des applications web</h4>
+                    <p>Créer des applications web adaptées à vos besoins et services. </p>
+                </div>
+                <div class="service">
+                    <i class="icon fas fa-credit-card"></i>
+                    <h4>Commerce en ligne</h4>
+                    <p>Élaborez une stratégie pour développer votre entreprise en ligne. </p>
+                </div>
+                <div class="service">
+                    <i class="icon fas fa-keyboard"></i>
+                    <h4>Contenus créatifs </h4>
+                    <p>Générez des contenus créatifs tels que des blogs, des vlogs et des Newsletters qui interpelleront votre public cible. </p>
+                </div>
+                <div class="service">
+                    <i class="icon fas fa-database"></i>
+                    <h4>Administration de la base de données</h4>
+                    <p>Collecter et travailler avec des données qui évoluent avec votre entreprise. </p>
+                </div>
+                <div class="service">
+                    <i class="icon fas fa-pager"></i>
+                    <h4>Gestion des communautés en ligne</h4>
+                    <p>Construisez votre présence en ligne en utilisant les plateformes de réseaux sociaux les plus populaires. </p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+<!--experiance-->
+    <section id="education">
+        <div class="inner-width">
+            <h1 class="section-title">Éducation et expérience</h1>
+            <div class="time-line">
+
+                <div class="block">
+                    <h4>2019-2020</h4>
+                    <h3>Developer Delphi & SQL</h3>
+                    <p> CDD: Gibaud - </p>
+                </div>
+
+                <div class="block">
+                    <h4>2018-2019</h4>
+                    <h3>Developer ASP.NET C#</h3>
+                    <p> CDI : Despinasse groupe - </p>
+                </div>
+
+                <div class="block">
+                    <h4>2017-2018</h4>
+                    <h3>Webmaster PHP & Wordpress</h3>
+                    <p> Stagiare / CDD - AV1 communications </p>
+                </div>
+
+                <div class="block">
+                    <h4>2016-2017</h4>
+                    <h3>Intégrateur web HTML5/CSS/JS</h3>
+                    <p>CDD - Esabora </p>
+                </div>
+
+                <div class="block">
+                    <h4>2014-2016</h4>
+                    <h3>Webmaster</h3>
+                    <p>Contrat Professionalisation : Prestance </p>
+                </div>
+
+                <div class="block">
+                    <h4>2014-2015</h4>
+                    <h3>Formation Alternance: Développeur Front-End</h3>
+                    <p>CTI Formation : Lyon</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--Works-->
+    <section id="works" class="dark">
+        <div class="inner-width">
+            <h1 class="section-title">Etabli</h1>
+            <div class="works">
+
+                <a href="img/works/1.jpg" class="work">
+                    <img src="img/works/1.jpg" alt="">
+                    <div class="info">
+                        <h3>work title</h3>
+                        <div class="cat">Projects</div>
+                    </div>
+                </a>
+
+                <a href="" class="work">
+                    <img src="img/works/2.jpg" alt="">
+                    <div class="info">
+                        <h3>work title</h3>
+                        <div class="cat">Projects</div>
+                    </div>
+                </a>
+
+                <a href="" class="work">
+                    <img src="img/works/3.jpg" alt="">
+                    <div class="info">
+                        <h3>work title</h3>
+                        <div class="cat">Projects</div>
+                    </div>
+                </a>
+
+                <a href="" class="work">
+                    <img src="img/works/4.jpg" alt="">
+                    <div class="info">
+                        <h3>work title</h3>
+                        <div class="cat">Projects</div>
+                    </div>
+                </a>
+
+                <a href="" class="work">
+                    <img src="img/works/5.jpg" alt="">
+                    <div class="info">
+                        <h3>work title</h3>
+                        <div class="cat">Projects</div>
+                    </div>
+                </a>
+
+                <a href="" class="work">
+                    <img src="img/works/6.jpg" alt="">
+                    <div class="info">
+                        <h3>work title</h3>
+                        <div class="cat">Projects</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="inner-width">
+            <h1 class="section-title">Contactez-nous</h1>
+            <div class="contact-info">
+                <div class="item">
+                    <i class="fas fa-mobile-alt"></i>
+                    0625864697
+                </div>
+                <div class="item">
+                    <i class="fas fa-envelope"></i>
+                    Mclean_1982@hotmail.com
+                </div>
+                <div class="item">
+                    <i class="fas fa-map-marker-alt"></i>
+                   Saint Etienne, France 42100
+                </div>
+            </div>
+            <form action="mail.php" method="POST" class="contact-form">
+                <input type="text" class="nameZone" placeholder="Your Full Name" name="name" pattern="[A-Za-z-0-9]+\s[A-Za-z-'0-9]+" required>
+                <input type="email" class="emailZone" placeholder="Your Mail" name="email" required>
+                <input type="text" class="subjectZone" placeholder="Subject" name="objet"  required>
+                <textarea class="messageZone" placeholder="Message" name="message" pattern="[A-Za-z-0-9]+\s[A-Za-z-'0-9]+" required></textarea>
+                <div>
+                    <input type="submit" value="Envoyer" class="btn" placeholder="Envoyer">
+                    <input type="reset" value="Réinitialiser" class="btn" placeholder="Réinitialiser">
+                </div>
+               
+            </form>
+        </div>
+    </section>
+
+<footer>
+    <div class="inner-width">
+        <div class="copyright">
+            &copy; 2020 | Created & designed by <a href="#">David McLean</a>
+        </div>
+        <div class="sm">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin-in"></a>
+            <a href="#" class="fab fa-youtube"></a>
+        </div>
+    </div>
+</footer>
+    <!--Go Top BTN -->
+    <button class="goTop fa fa-arrow-up"></button>
     </body>
 </html>
