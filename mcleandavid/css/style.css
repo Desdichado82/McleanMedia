@@ -399,14 +399,13 @@ section.dark{
     flex-wrap:wrap;
 }
 
-.block{
-    width:calc(50% - 20px);
-    background-color:#fff;
-    border:1px solid #ddd;
+.block {
+    width: calc(50% - 20px);
+    background-color: #fff;
+    border: 1px solid #ddd;
     margin: 10px 0;
-    padding:30px;
-    position:relative;
-
+    padding: 30px;
+    position: relative;
 }
 
 .block::before{
@@ -610,7 +609,7 @@ footer{
 
 
 
-@media screen and (max-width:980px){
+@media screen and (max-width: 980px){
     .menu-toggler{
         display:block;
     }
@@ -675,13 +674,13 @@ footer{
 .service{
     width:calc(50% - 20px);
 }
-    .block{
-        width:calc(100%-20%);
-        margin-left:auto;
-    }
+     .block{
+    width: calc(100% - 20px);
+    margin-left: auto;
+  }
     
     .work{
-        width:calc(50%-10px);
+        width:calc(50% - 10px);
     }
     
     .contact-info .item{
