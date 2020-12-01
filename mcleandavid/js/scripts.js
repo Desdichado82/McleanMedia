@@ -23,5 +23,5 @@ $(document).ready(function(){
         gallery:{enabled:true}
     });
 
-    console.log('Hello David ');
+   
 });
