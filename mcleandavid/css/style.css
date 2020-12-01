@@ -12,6 +12,19 @@
 html{
     scroll-behavior: smooth;
 }
+
+::selection{
+  background-color: #48dbfb60;
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+  background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #353b48;
+}
 .navbar{
 position:fixed;
 background-color:snow;
@@ -36,8 +49,8 @@ transition:.3s linear;
 }
 
 .logo{
-    width:90px;
-    height:90px;
+    width:44px;
+    height:32px;
     background-image:url(../img/mcleandavid_logo.png);
     background-repeat:no-repeat;
     background-size:contain;
