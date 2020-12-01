@@ -662,6 +662,19 @@ footer{
 .service{
     width:calc(50% - 20px);
 }
+    .block{
+        width:calc(100%-20%);
+        margin-left:auto;
+    }
+    
+    .work{
+        width:calc(50%-10px);
+    }
+    
+    .contact-info .item{
+        width:100%;
+        margin:10px 0;
+    }
 
 }
 
@@ -676,5 +689,13 @@ footer{
 
     .service{
         width:100%;
+    }
+    
+    .work{
+        width:100%;
+    }
+    
+    .nameZone, .emailZone{
+        max-width:100%;
     }
 }
