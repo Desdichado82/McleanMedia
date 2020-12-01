@@ -49,8 +49,8 @@ transition:.3s linear;
 }
 
 .logo{
-    width:44px;
-    height:32px;
+    width:90px;
+    height:40px;
     background-image:url(../img/mcleandavid_logo.png);
     background-repeat:no-repeat;
     background-size:contain;
